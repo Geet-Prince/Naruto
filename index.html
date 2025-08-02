@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Naruto Character Gallery</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+</head>
+<body>
+  <div class="container mt-5">
+    <h2 class="text-center mb-4">Naruto Character Gallery</h2>
+    <!-- Gallery Filter -->
+    <div class="mb-4 text-center">
+      <button class="btn btn-outline-primary mx-1 filter-btn active" data-filter="all">All</button>
+      <button class="btn btn-outline-secondary mx-1 filter-btn" data-filter="hokage">Hokage</button>
+      <button class="btn btn-outline-danger mx-1 filter-btn" data-filter="uchiha">Uchiha</button>
+      <button class="btn btn-outline-success mx-1 filter-btn" data-filter="sannin">Sannin</button>
+      <button class="btn btn-outline-dark mx-1 filter-btn" data-filter="akatsuki">Akatsuki</button>
+    </div>
+
+    <div class="row">
+
+      <!-- Naruto -->
+      <div class="col-md-4 mb-4 gallery-item hokage">
+        <div class="card h-100 shadow-lg border-primary">
+          <img src="https://easydrawingguides.com/wp-content/uploads/2017/05/how-to-draw-naruto-featured-image-1200.png" class="card-img-top" alt="Naruto Image">
+          <div class="card-body bg-light">
+            <h5 class="card-title text-primary">Naruto Uzumaki</h5>
+            <p class="card-text">Naruto Uzumaki is a spirited ninja with dreams of becoming Hokage. His journey is full of challenges, friendships, and battles that define true strength.</p>
+            <a href="https://en.wikipedia.org/wiki/Naruto" class="btn btn-primary btn-block" target="_blank">Learn more</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Kakashi -->
+      <div class="col-md-4 mb-4 gallery-item hokage">
+        <div class="card h-100 shadow-lg border-secondary">
+          <img src="https://static.wikitide.net/deathbattlewiki/a/a7/Portrait.kakashihatake.png" class="card-img-top" alt="Kakashi Image">
+          <div class="card-body bg-light">
+            <h5 class="card-title text-secondary">Kakashi Hatake</h5>
+            <p class="card-text">Kakashi, the Copy Ninja, is a legendary Leaf shinobi and mentor to Team 7. Calm, brilliant, and masked, he later becomes the Sixth Hokage.</p>
+            <a href="https://en.wikipedia.org/wiki/Kakashi_Hatake" class="btn btn-secondary btn-block" target="_blank">Learn more</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sasuke -->
+      <div class="col-md-4 mb-4 gallery-item uchiha">
+        <div class="card h-100 shadow-lg border-danger">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStAD3ZylbkjvAveQWiaNsirr0vpnz6xLEWyg&s" class="card-img-top" alt="Sasuke Image">
+          <div class="card-body bg-light">
+            <h5 class="card-title text-danger">Sasuke Uchiha</h5>
+            <p class="card-text">Sasuke is a vengeful prodigy of the Uchiha clan, driven by revenge and later redemption, wielding both the Sharingan and Rinnegan.</p>
+            <a href="https://en.wikipedia.org/wiki/Sasuke_Uchiha" class="btn btn-danger btn-block" target="_blank">Learn more</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pain -->
+      <div class="col-md-4 mb-4 gallery-item akatsuki">
+        <div class="card h-100 shadow-lg border-dark">
+          <img src="https://rukminim2.flixcart.com/image/704/844/xif0q/poster/y/0/f/medium-pain-x-nagato-naruto-frames-posters-anime-276-wallify-original-imah26paawner4zq.jpeg?q=90&crop=false" class="card-img-top" alt="Pain Image">
+          <div class="card-body bg-light">
+            <h5 class="card-title text-dark">Pain (Nagato)</h5>
+            <p class="card-text">Pain used the Rinnegan and Six Paths to impose peace through pain. His tragic story shaped his god-like ideology and actions.</p>
+            <a href="https://naruto.fandom.com/wiki/Nagato" class="btn btn-dark btn-block" target="_blank">Learn more</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tobirama -->
+      <div class="col-md-4 mb-4 gallery-item hokage">
+        <div class="card h-100 shadow-lg border-info">
+          <img src="https://w0.peakpx.com/wallpaper/1005/847/HD-wallpaper-tobirama-senju-naruto-uchiha-ninja-shippuden-leaf-hashirama.jpg" class="card-img-top" alt="Tobirama Image">
+          <div class="card-body bg-light">
+            <h5 class="card-title text-info">Tobirama Senju</h5>
+            <p class="card-text">Tobirama, the Second Hokage, created many advanced jutsu. He was strict, brilliant, and a key architect of the ninja world’s systems.</p>
+            <a href="https://naruto.fandom.com/wiki/Tobirama_Senju" class="btn btn-info btn-block" target="_blank">Learn more</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Madara -->
+      <div class="col-md-4 mb-4 gallery-item uchiha">
+        <div class="card h-100 shadow-lg border-danger">
+          <img src="https://staticdelivery.nexusmods.com/mods/4333/images/thumbnails/1869/1869-1658274896-587556591.jpeg" class="card-img-top" alt="Madara Image">
+          <div class="card-body bg-light">
+            <h5 class="card-title text-danger">Madara Uchiha</h5>
+            <p class="card-text">Madara, co-founder of Konoha, sought world peace through the Infinite Tsukuyomi. His power and ideals shook the shinobi world.</p>
+            <a href="https://en.wikipedia.org/wiki/Madara_Uchiha" class="btn btn-danger btn-block" target="_blank">Learn more</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Orochimaru -->
+      <div class="col-md-4 mb-4 gallery-item sannin">
+        <div class="card h-100 shadow-lg border-success">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVolR4Y5fu3lNRtl8Mjuq4l3nbP6Duh98dMQ&s" class="card-img-top" alt="Orochimaru Image">
+          <div class="card-body bg-light">
+            <h5 class="card-title text-success">Orochimaru</h5>
+            <p class="card-text">Orochimaru, one of the legendary Sannin, sought immortality and knowledge through forbidden experiments. A cunning and snake-like genius.</p>
+            <a href="https://en.wikipedia.org/wiki/Orochimaru_(Naruto)" class="btn btn-success btn-block" target="_blank">Learn more</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Custom Styles & Script -->
+    <style>
+      body {
+        background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+      }
+      .card {
+        transition: transform 0.2s, box-shadow 0.2s;
+      }
+      .card:hover {
+        transform: translateY(-8px) scale(1.03);
+        box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+        z-index: 2;
+      }
+      .filter-btn.active {
+        color: #fff !important;
+        background: #6366f1 !important;
+        border-color: #6366f1 !important;
+      }
+    </style>
+    <script>
+      // Gallery filter functionality
+      document.addEventListener('DOMContentLoaded', function() {
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const items = document.querySelectorAll('.gallery-item');
+        filterBtns.forEach(btn => {
+          btn.addEventListener('click', function() {
+            filterBtns.forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+            const filter = this.getAttribute('data-filter');
+            items.forEach(item => {
+              if (filter === 'all' || item.classList.contains(filter)) {
+                item.style.display = '';
+              } else {
+                item.style.display = 'none';
+              }
+            });
+          });
+        });
+      });
+    </script>
+  </div>
+</body>
+</html>
